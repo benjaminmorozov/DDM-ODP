@@ -1,0 +1,17 @@
+body {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.accordion-button::after {
+    content: none;
+}
+.accordion-item, .tabulka {
+    margin-left: 20px;
+}
+.tabulka {
+    width: 25%;
+}
+.link-banner {
+    margin: 20px;
+    width: 300px;
+}
