@@ -13,5 +13,12 @@ body {
 }
 .link-banner {
     margin: 20px;
-    width: 300px;
+    width: 450px;
+}
+img {
+    object-fit:scale-down;
+    height: 250px;
+}
+.headingCarousel {
+    margin: 20px;
 }
