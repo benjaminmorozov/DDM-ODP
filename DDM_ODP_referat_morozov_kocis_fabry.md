@@ -66,7 +66,7 @@ Dôležité je taktiež **zachovať čitateľnosť** aj na tých **najmenších 
 
 ![Typografia je v podstate druh elektronického umenia](https://www.shillingtoneducation.com/content-blog/uploads/2019/09/Typography_Anatomy.jpg)
 
-### **Rozloženie a prvky stránky**
+# Rozloženie a prvky stránky
 
 Jednou z najväčších zaujímavostí vo webovom dizajne je práve forma alebo spôsob, ako si stránku čítame a pozorujeme ju. Na stránkach, ktoré sú plné informácií a obrázkov, ktoré nás majú niečo naučiť a niečim zaujať sa používa práve tzv. F-pattern, kedy čítame riadok po riadku s tým, že sa vraciame na rovnakú vertikálnu čiaru, aby sme pokračovali v odstavci.
 
@@ -88,7 +88,7 @@ Jedným zo základov webového dizajnu je aj user experience. Používateľovi b
 
 Na internete v posledných rokoch vzniká zaujímavá senzácia menom slider. Jedná sa o typ banneru (statická časť webu, ktorá zobrazuje najdôležitejšie informácie na jednom mieste), ktorý je spracovaný formou galérie. Dokáže teda zobraziť oveľa viacej informácií ako jeho náprotivok.
 
-### **Typografia webu vs tlačovín**
+# Typografia webu vs tlačovín
 
 Zaujímavosťou je práve podobnosť medzi papierovým a elektrickým médiom. Obe formy predávajú informácie rovnakým spôsobom - čítaním (ak nepočítame videá a audionahrávky). Problém však vzniká v ďalšej interakcii. Tlačoviny sú tzv. dvojdimenzionálne médium. To čo máme proste máme a aj keby sme papier otáčali a otvárali koľkokrát by sme len chceli, nič by sa na ňom nezmenilo. Naopak, u webových/elektronických médií je možné jediným klikom prejsť z noviniek o športe na vtipné videá psov. Navigácia je taktiež oveľa jednoduchšia, nakoľko nám stačí stlačiť jedinú skratku - Ctrl+F - a môžeme sa dostať priamo k informácii, ktorú hľadáme, kdežto ak si kúpime encyklopédiu o zvieratách len za účelom toho, aby sme si prečítali o tom, koľko nôh má žirafa, tak by sme si pravdepodobne museli knihu prečítať celú.
 
@@ -100,7 +100,7 @@ Vzniká tu taktiež problém toho, že nie každý používateľ má rovnaký in
 
 ![Tlačený dizajn](https://wenceslau-nd.com/wp-content/uploads/2020/09/Domani_Print_09_Wenceslau_News_Design-1.gif)
 
-### **Responzívny web dizajn**
+# Responzívny web dizajn
 
 Je veľmi dôležité, aby sme nezabúdali na to, že by sa na obrazovke nemalo nachádzať príliš veľa elementov naraz. Pri mobilnej verzii stránky by sa nám totiž text mohol stať priam nečitateľným, nakoľko by ho veľa elementov zakrývalo.
 Musíme myslieť aj na to, že aj napriek tomu, že sa nachádzame na takom malom médiu, mali by sme zachovať rovnaké, ba aj väčšie medzery medzi samotnými odstavcami, ikonkami a tlačidlami.
@@ -117,7 +117,7 @@ Na mobilných zariadeniach by mali byť odstránené sekcie, ktoré sa tam veľm
 
 ![Responzívny dizajn](https://assets.awwwards.com/awards/images/2015/07/awwwards-responsive-big.png)
 
-### **Optimalizácia obrázkov**
+# Optimalizácia obrázkov
 
 Ako sme už spomínali vyššie, je veľmi dôležité nevkladať na web obrázky s príliš vysokým rozlíšením, hlavne, keď sa dané rozlišenie nevyužije naplno. Stránka sa nám na pomalých sieťach bude načítavať príliš pomaly. Naopak do článkov, v ktorých väčšinou chceme vyzdvihnúť určitú časť obrázku, napríklad budovu alebo osobu, je nutné vkladať minimálne Full HD obrázky, teda 1920x1080px. V opačnom prípade môže totiž dôjsť k tomu, že obrázky budú príliš rozpixelované, poprípade rozmazané a článok tak bude rozprávať o niečom, čo ani nevidíme.
 
@@ -127,7 +127,7 @@ Nakoľko nie je možné, aby malé weby, blogy a e-shopy mali servery po celom s
 
 ![CDN](https://res.cloudinary.com/lwgatsby/f_auto/www/uploads/2020/09/2-how-does-a-cdn-work-1.jpg)
 
-### **Farby a štýly**
+# Farby a štýly
 
 V grafickom dizajne existujú dva pojmy - user experience a user interface. User experience hovorí o intuitívnosti dizajnu, o tom, ako by stránka mala byť ľahko použiteľná pre všetkých a ako by všetky ikony mali signalizovať to, čo skutočne robia. Nemala by byť zbytočne plná nepekných elementov, ktoré so sebou nijako nesúvisia a navzájom si zavadzajú. Na základný návrh user experience sa väčšinou používajú prototypy a wireframy.
 
@@ -135,7 +135,7 @@ Naopak, user interface hovorí o tom, ako stránka, poprípade aplikácia vyzer�
 
 ![UX vs UI](https://grafika.sk/wp-content/uploads/2016/07/rozdiel-UX-a-UI.png)
 
-### **Základné pojmy**
+# Základné pojmy
 
 Wireframe
 > Základný návrh stránky bez akéhokoľvek zaujímaveho vzhľadu. Hovorí o rozlohe webu, kde sa čo bude nachádzať, a ako to bude so sebou spolupracovať.
@@ -162,7 +162,7 @@ Lazy loading
 WYSIWYG
 > What You See Is What You Get - forma písania článkov v redakčných systémoch. To, čo ako autor vložíme, bude to, čo na stránke uvidíme ako finálny výsledok.
 
-### **Použitie frameworkov**
+# Použitie frameworkov
 
 PHP frameworky nám uľahčujú vývoj webu. Poskytujú nám dobre organizovaný kód, ktorý môžeme v priebehu času ľahko škálovať. Vďaka nim máme k dispozícii už hotové komplexné funkcie a dizajnové elementy, pomocou ktorých môžeme do hodiny vytvoriť hotový blog, redakčný systém ale aj e-shop.
 
@@ -176,7 +176,7 @@ Medzi najobľúbenejšie PHP frameworky patria:
 3. **Symfony** - framework, ktorého cieľom je vývojárovi čo najviac uľahčiť prácu. Je osekaný do množstva konfiguračných súborov, ktoré sa píšu vo veľmi úspornom jazyku YAML. Obsahuje množstvo pluginov, ktoré majú programátorovi pomôcť v perfektovaní svojho webu.
 ![Symfony](https://miro.medium.com/max/1024/0*YYimU29xUrOcvh8m.)
 
-# **Zdroje**
+# Zdroje
 ##### Použité knižné zdroje:
 [Modern PHP, O'Reilly Media, Inc., 2015, ISBN9781491905012](https://www.oreilly.com/library/view/modern-php/9781491905173)
 
