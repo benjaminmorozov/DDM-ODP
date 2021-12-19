@@ -41,6 +41,7 @@ Vypracované: 14. 12. 2021
 - [Použitie frameworkov](#použitie-frameworkov)
   - Najobľúbenejšie PHP frameworky medzi vývojármi
 - [Zdroje](#zdroje)
+<div style="page-break-after: always;"></div>
 
 # Typy písma a texty
 
