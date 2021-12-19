@@ -8,6 +8,8 @@ Predmet: DDM-ODP
 
 Vypracované: 14. 12. 2021
 
+Na vypracovanie dokumentu boli použité nástroje Visual Studio Code, Adobe Acrobat DC a doxygen (1.9.2).
+
 # Obsah
 
 - [Typy písma a texty](#typy-písma-a-texty)
