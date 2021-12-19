@@ -174,6 +174,7 @@ Medzi najobľúbenejšie PHP frameworky patria:
 ![CodeIgniter](https://miro.medium.com/max/1031/1*7o6KRu9HrRfqKlpIhFGmpg.png)
 
 3. **Symfony** - framework, ktorého cieľom je vývojárovi čo najviac uľahčiť prácu. Je osekaný do množstva konfiguračných súborov, ktoré sa píšu vo veľmi úspornom jazyku YAML. Obsahuje množstvo pluginov, ktoré majú programátorovi pomôcť v perfektovaní svojho webu.
+
 ![Symfony](https://miro.medium.com/max/1024/0*YYimU29xUrOcvh8m.)
 
 # **Zdroje**
