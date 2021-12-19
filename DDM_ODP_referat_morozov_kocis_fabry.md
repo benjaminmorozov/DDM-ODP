@@ -32,6 +32,7 @@ Autori: Benjamín Morozov, Filip Kočiš, Ľubomír Fábry II.A
   - UX vs UI
 - [Základné pojmy](#základné-pojmy)
 - [Použitie frameworkov](#použitie-frameworkov)
+  - Najobľúbenejšie PHP frameworky medzi vývojármi
 - [Zdroje](#zdroje)
 
 # Typy písma a texty
@@ -51,6 +52,8 @@ llllllll - 8 písmen
 **Poznáme teda:**
  - **neproporciálne písma** - každé písmeno má vyhradený rovnaký priestor, všetky znaky majú rovnakú šírku.
  - **proporciálne písma** - každé písmeno má rozdielnú šírku a voľný priestor. Takéto písma sa nám môžu zdať ľahšie čitateľné.
+
+> “If there’s one thing you learn by working on a lot of different web sites, it’s that almost any design idea–no matter how appallingly bad–can be made usable in the right circumstances, with enough effort.” - Steve Krug
 
 ![Proporciálnosť písiem](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Propvsmono.svg/220px-Propvsmono.svg.png)
 
@@ -78,7 +81,7 @@ Medzi formu webových stránok a ich prijímania patrí aj tzv. SAP, teda single
 
 Práve takéto server-side skripty sa používajú na e-shopoch, na ktorých aj hovoria o tom, ku ktorému košíku priradiť aký tovar, a k akému zákazníkovi priradiť akú objednávku. Takéto skripty nie sú veľmi potrebné na osobných a personálnych portfóliách, ktoré by mali byť statické a ich obsah by sa nemal na základe žiadneho používateľského vstupu nijako meniť.
 
-![Facebook](https://i.blogs.es/325bac/facebokk/450_1000.jpg)
+![Facebook](https://cdn.vox-cdn.com/thumbor/IdBI4T4fH6vebzkYAz7JqkdSylE=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19954379/NRP_the_new_facebook.com_final_1.jpg)
 
 Zlatý rez nám hovorí o nejakom myslenom vedomí dôležitosti prvkov na základe ich rozmiestnenia a veľkosti. Najdôležitejšie prvky by mali byť na stránke rozmiestnené čo najbližšie používateľovi s tým, že akékoľvek ďalšie a nepodstatné informácie by mali byť vzhľadovo menšie a menej-prepracované ako ta hlavná.
 
@@ -138,7 +141,7 @@ Naopak, user interface hovorí o tom, ako stránka, poprípade aplikácia vyzer�
 # Základné pojmy
 
 Wireframe
-> Základný návrh stránky bez akéhokoľvek zaujímaveho vzhľadu. Hovorí o rozlohe webu, kde sa čo bude nachádzať, a ako to bude so sebou spolupracovať.
+> Základný návrh stránky bez akéhokoľvek zaujímaveho vzhľadu. Hovorí o rozlohe webu, kde sa čo bude nachádzať, a ako to bude so sebou spolupracovať. Sú väčšinou tvorené v čiernobielej forme, pričom sú miesto obrázkov používané zástupné preškrtnuté štvrce. Snažia sa nedotýkať vizuálnej stránky webu, no zaujímať sa skôr o jeho organizáciu, obsah a funkcie. Wireframe je možné vytvoriť v programoch Adobe Illustrator, Adobe Xd, Microsoft Visio, atd. Skutočnosťou je však aj to, že wireframe je možné vytvoriť úplne jednoducho na papier, či na bielu tabuľu. Nemusí byť vôbec interaktívny, stačí aby vyvolal odpovede na otázky ohľadom kompozície web stránky.
 > ![Wireframe](https://i.ytimg.com/vi/zQ3Cn3EQz3k/maxresdefault.jpg)
 
 Frameworks
@@ -160,7 +163,8 @@ Lazy loading
 > Načítavania počas scrollovania. Dokým nie je časť stránky viditeľná na obrazovke, nie je načítaná.
 
 WYSIWYG
-> What You See Is What You Get - forma písania článkov v redakčných systémoch. To, čo ako autor vložíme, bude to, čo na stránke uvidíme ako finálny výsledok.
+> What You See Is What You Get - forma písania článkov v redakčných systémoch. To, čo ako autor vložíme, bude to, čo na stránke uvidíme ako finálny výsledok. Myšlienkou WYSIWYG editorov je vytvorenie webových stránok v priamom zobrazení dizajnu, pričom program na pozadí napíše HTML a CSS za nás priamo v reálnom čase. Umožňujú nám písať články a iný obsah pre web bez akejkoľvek znalosti HTML a CSS.
+> ![WYSIWYG](https://marketbusinessnews.com/wp-content/uploads/2019/06/WYSIWYG-image-WordPress-54444.jpg)
 
 # Použitie frameworkov
 
@@ -181,3 +185,5 @@ Medzi najobľúbenejšie PHP frameworky patria:
 [Modern PHP, O'Reilly Media, Inc., 2015, ISBN9781491905012](https://www.oreilly.com/library/view/modern-php/9781491905173)
 
 [Laravel: Up & Running, 2nd Edition, O'Reilly Media, Inc., 2019, ISBN9781492041214](https://www.oreilly.com/library/view/laravel-up/9781492041207)
+
+[Web Design with HTML and CSS Digital Classroom, (Book and Video Training) 1st Editionn, AGI Creative Team, Jennifer Smith, Jeremy Osborn, 2011, ISBN9780470583609](https://www.oreilly.com/library/view/web-design-with/9781118094280)
