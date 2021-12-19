@@ -4,7 +4,7 @@ Autori: Benjamín Morozov, Filip Kočiš, Ľubomír Fábry II.A
 
 # Obsah
 
-- [Typy písma a texty](#user-content-typy-písma-a-texty)
+- [Typy písma a texty](#typy-písma-a-texty)
   - Bezpätkové
   - Pätkové
   - Proporciálnosť písiem
