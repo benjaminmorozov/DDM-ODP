@@ -167,7 +167,7 @@ WYSIWYG
 PHP frameworky nám uľahčujú vývoj webu. Poskytujú nám dobre organizovaný kód, ktorý môžeme v priebehu času ľahko škálovať. Vďaka nim máme k dispozícii už hotové komplexné funkcie a dizajnové elementy, pomocou ktorých môžeme do hodiny vytvoriť hotový blog, redakčný systém ale aj e-shop.
 
 Medzi najobľúbenejšie PHP frameworky patria:
-1. **Laravel** - vydaný v roku 2011. Je momentálne najobľúbenejším frameworkom medzi vývojármi. Má obrovský ekosystém s platformou pripravenou k okamžitej tvorbe. Funguje na základe odľahčeného šablonového enginu Blade, má elegantný syntax a podporuje aj autentikácia, relácia, radenie do front, cachovanie a REST
+1. **Laravel** - vydaný v roku 2011. Je momentálne najobľúbenejším frameworkom medzi vývojármi. Má obrovský ekosystém s platformou pripravenou k okamžitej tvorbe. Funguje na základe odľahčeného šablonového enginu Blade, má elegantný syntax a podporuje aj autentikácia, relácia, radenie do front, cachovanie a REST.
 ![Laravel](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxPTViRjJVarWMNfNKWBJcYDnQXuZtmGn94WX_q5CPH5OsinZln3fWkSAwvoXq4zEriXs&usqp=CAU)
 
 2. **CodeIgniter** - odhľahčený PHP framework, vydaný v roku 2006. Má veľmi jednoduchý inštalačný proces, ktorý vyžaduje minimálnu konfiguráciu. Používa komponenty controllery, modely a views. Rovnako ako Laravel, poskytuje svojim vývojárom značnú voľnosť. Zaujímavosťou je, že na disku zaberie len 2MB.
