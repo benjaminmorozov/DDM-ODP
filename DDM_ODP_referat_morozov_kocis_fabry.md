@@ -139,7 +139,7 @@ Naopak, user interface hovorí o tom, ako stránka, poprípade aplikácia vyzer�
 
 Wireframe
 > Základný návrh stránky bez akéhokoľvek zaujímaveho vzhľadu. Hovorí o rozlohe webu, kde sa čo bude nachádzať, a ako to bude so sebou spolupracovať.
-> ![Wireframe](https://9series.com/blog/wp-content/uploads/2016/08/Wireframe-.jpeg)
+> ![Wireframe](https://i.ytimg.com/vi/zQ3Cn3EQz3k/maxresdefault.jpg)
 
 Frameworks
 > Knižnica podporných programov, radu API, návrhových vzorov, prídavných funkcií a skriptov, s pomocou ktorej sme schopní vytvoriť funkčnú službu. Slúži na uľahčenie tvorby web stránky.
@@ -174,7 +174,6 @@ Medzi najobľúbenejšie PHP frameworky patria:
 ![CodeIgniter](https://miro.medium.com/max/1031/1*7o6KRu9HrRfqKlpIhFGmpg.png)
 
 3. **Symfony** - framework, ktorého cieľom je vývojárovi čo najviac uľahčiť prácu. Je osekaný do množstva konfiguračných súborov, ktoré sa píšu vo veľmi úspornom jazyku YAML. Obsahuje množstvo pluginov, ktoré majú programátorovi pomôcť v perfektovaní svojho webu.
-
 ![Symfony](https://miro.medium.com/max/1024/0*YYimU29xUrOcvh8m.)
 
 # **Zdroje**
