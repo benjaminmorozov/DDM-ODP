@@ -36,6 +36,7 @@ Vypracované: 14. 12. 2021
   - Použitie CDN v praxi
 - [Farby a štýly](#farby-a-štýly)
   - UX vs UI
+  - Konzistentnosť štýlov a farieb
 - [Základné pojmy](#základné-pojmy)
 - [Použitie frameworkov](#použitie-frameworkov)
   - Najobľúbenejšie PHP frameworky medzi vývojármi
@@ -141,6 +142,12 @@ Nakoľko nie je možné, aby malé weby, blogy a e-shopy mali servery po celom s
 V grafickom dizajne existujú dva pojmy - user experience a user interface. User experience hovorí o intuitívnosti dizajnu, o tom, ako by stránka mala byť ľahko použiteľná pre všetkých a ako by všetky ikony mali signalizovať to, čo skutočne robia. Nemala by byť zbytočne plná nepekných elementov, ktoré so sebou nijako nesúvisia a navzájom si zavadzajú. Na základný návrh user experience sa väčšinou používajú prototypy a wireframy.
 
 Naopak, user interface hovorí o tom, ako stránka, poprípade aplikácia vyzerá. Hovorí o tom, či je dizajnovo moderná a či má konzistentný design language. Na stránke by sa nám nemali meniť hlavné farby, ktoré používame. Tiež by sa nám nemala drasticky meniť rozloha stránky bez akéhokoľvek používateľského vstupu.
+
+Považuje sa za vhodné využívať, aj keď už často používané, moderné prvky webového dizajnu, nakoľko sú použivatelia na internete zvyknutý na fungovanie rôznych tlačidiel rovnakým spôsobom naprieč viacerými webmi.
+
+Dôležité je tiež zachovávať na jednom webe rovnakú farebnú paletu a štýl. Ak sú nadpisy červenou farbou, rovnakou farbou by mali ostať všade. Ak majú tlačidlá "sklenený dizajn", rovnako by mali vyzerať aj na mobilných zariadeniach.
+
+Ak je web dizajnovaný s myšlienkou konzistencie na prvom mieste, jej používatelia sa o nej začnú učiť rôzne veci bez toho, aby nad tým vôbec premýšľali. Webovú stránku si môžeme predstaviť ako náš domov. Jedná sa o miesto, ktorým vieme navigovať stále, bez sústredenia sa na to. Ak k nám príde návšteva, môže byť na určitý čas zmätená z toho, kde sa nachádza toaleta, kde je obývačka a kde je gauč, no časom sa tieto veci naučí. Úlohou dizajnéra je tento čas čo najviac skrátiť a byť čo najviac konzistentný, aby nedošlo k tomu, že používateľ bude očakávať tlačidlo späť na stránke s chybou 404, keď bolo vždy na každej inej podstránke.
 
 ![UX vs UI](https://grafika.sk/wp-content/uploads/2016/07/rozdiel-UX-a-UI.png)
 
