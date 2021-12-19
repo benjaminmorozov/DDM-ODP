@@ -1,6 +1,9 @@
 # **Typografia webových stránok**
 
 Autori: Benjamín Morozov, Filip Kočiš, Ľubomír Fábry II.A
+@benjaminmorozov, @fifo260, @lubomirfabry
+Predmet: DDM-ODP
+Vypracované: 14. 12. 2021
 
 # Obsah
 
