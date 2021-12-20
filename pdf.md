@@ -79,6 +79,13 @@ Dôležité je taktiež **zachovať čitateľnosť** aj na tých **najmenších 
 
 ![Typografia je v podstate druh elektronického umenia](https://www.shillingtoneducation.com/content-blog/uploads/2019/09/Typography_Anatomy.jpg)
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # Rozloženie a prvky stránky
 
 Jednou z najväčších zaujímavostí vo webovom dizajne je práve forma alebo spôsob, ako si stránku čítame a pozorujeme ju. Na stránkach, ktoré sú plné informácií a obrázkov, ktoré nás majú niečo naučiť a niečim zaujať sa používa práve tzv. F-pattern, kedy čítame riadok po riadku s tým, že sa vraciame na rovnakú vertikálnu čiaru, aby sme pokračovali v odstavci.
@@ -174,6 +181,8 @@ Favicon
 Lazy loading
 > Načítavania počas scrollovania. Dokým nie je časť stránky viditeľná na obrazovke, nie je načítaná.
 
+<br>
+
 Wireframe
 > Základný návrh stránky bez akéhokoľvek zaujímaveho vzhľadu. Hovorí o rozlohe webu, kde sa čo bude nachádzať, a ako to bude so sebou spolupracovať. Sú väčšinou tvorené v čiernobielej forme, pričom sú miesto obrázkov používané zástupné preškrtnuté štvrce. Snažia sa nedotýkať vizuálnej stránky webu, no zaujímať sa skôr o jeho organizáciu, obsah a funkcie. Wireframe je možné vytvoriť v programoch Adobe Illustrator, Adobe Xd, Microsoft Visio, atd. Skutočnosťou je však aj to, že wireframe je možné vytvoriť úplne jednoducho na papier, či na bielu tabuľu. Nemusí byť vôbec interaktívny, stačí aby vyvolal odpovede na otázky ohľadom kompozície web stránky.
 > ![Wireframe](https://i.ytimg.com/vi/zQ3Cn3EQz3k/maxresdefault.jpg)
@@ -181,6 +190,8 @@ Wireframe
 WYSIWYG
 > What You See Is What You Get - forma písania článkov v redakčných systémoch. To, čo ako autor vložíme, bude to, čo na stránke uvidíme ako finálny výsledok. Myšlienkou WYSIWYG editorov je vytvorenie webových stránok v priamom zobrazení dizajnu, pričom program na pozadí napíše HTML a CSS za nás priamo v reálnom čase. Umožňujú nám písať články a iný obsah pre web bez akejkoľvek znalosti HTML a CSS.
 > ![WYSIWYG](https://i.postimg.cc/xjHPdYJW/image.png)
+
+<br>
 
 # Použitie frameworkov
 
@@ -192,6 +203,8 @@ Medzi najobľúbenejšie PHP frameworky patria:
 
 2. **CodeIgniter** - odhľahčený PHP framework, vydaný v roku 2006. Má veľmi jednoduchý inštalačný proces, ktorý vyžaduje minimálnu konfiguráciu. Používa komponenty controllery, modely a views. Rovnako ako Laravel, poskytuje svojim vývojárom značnú voľnosť. Zaujímavosťou je, že na disku zaberie len 2MB.
 ![CodeIgniter](https://miro.medium.com/max/1031/1*7o6KRu9HrRfqKlpIhFGmpg.png)
+
+<br>
 
 3. **Symfony** - framework, ktorého cieľom je vývojárovi čo najviac uľahčiť prácu. Je osekaný do množstva konfiguračných súborov, ktoré sa píšu vo veľmi úspornom jazyku YAML. Obsahuje množstvo pluginov, ktoré majú programátorovi pomôcť v perfektovaní svojho webu.
 ![Symfony](https://miro.medium.com/max/1024/0*YYimU29xUrOcvh8m.)
