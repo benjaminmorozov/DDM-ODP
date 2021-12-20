@@ -43,7 +43,6 @@ Na vypracovanie dokumentu boli použité nástroje Visual Studio Code, Adobe Acr
 - [Použitie frameworkov](#použitie-frameworkov)
   - Najobľúbenejšie PHP frameworky medzi vývojármi
 - [Zdroje](#zdroje)
-<div style="page-break-after: always;"></div>
 
 # Typy písma a texty
 
