@@ -1,9 +1,4 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
-</style>
-<h1 style="font-family: 'Roboto Slab', serif;">
-Typografia webových stránok
-</h1>
+# Typografia webových stránok
 
 **Autori**: Benjamín Morozov, Filip Kočiš, Ľubomír Fábry II.A
 
