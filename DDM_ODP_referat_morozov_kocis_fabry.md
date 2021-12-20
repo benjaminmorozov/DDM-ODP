@@ -12,7 +12,7 @@ Na vypracovanie dokumentu boli použité nástroje **Visual Studio Code**, **Ado
 
 # Obsah
 
-- **[Typy písma a texty](#typy-písma-a-texty)**
+- **[Typy písma a texty](#typy-písma-a-texty)** - 2-3
   - Bezpätkové - 2
   - Pätkové - 2
   - Proporciálnosť písiem - 2
@@ -20,29 +20,29 @@ Na vypracovanie dokumentu boli použité nástroje **Visual Studio Code**, **Ado
   - Dlhé vs krátke texty - 3
   - Maximálna úroveň nadpisov - 3
   - Pravidlá na písma - 3
-- **[Rozloženie a prvky stránky](#rozloženie-a-prvky-stránky)**
-  - Z-pattern vs F-pattern
-  - Single page application
-  - E-shopy vs portfóliá
-  - Zlatý rez
-  - Malo by byť logo stránky klikateľné?
-  - Slider vs banner
-- **[Typografia webu vs tlačovín](#typografia-webu-vs-tlačovín)**
-- **[Responzívny web dizajn](#responzívny-web-dizajn)**
-  - Existujú nejaké pravidlá, ktoré by sme mali dodržiavať?
-  - Ako by sa stránka mala meniť podľa typu média
-  - Zobrazenie podstatných sekcií
-- **[Optimalizácia obrázkov](#optimalizácia-obrázkov)**
-  - Rozlíšenie
-  - Veľkosť
-  - Použitie CDN v praxi
-- **[Farby a štýly](#farby-a-štýly)**
-  - UX vs UI
-  - Konzistentnosť štýlov a farieb
-- **[Základné pojmy](#základné-pojmy)**
-- **[Použitie frameworkov](#použitie-frameworkov)**
-  - Najobľúbenejšie PHP frameworky medzi vývojármi
-- **[Zdroje](#zdroje)**
+- **[Rozloženie a prvky stránky](#rozloženie-a-prvky-stránky)** 4 - 6
+  - Z-pattern vs F-pattern - 4
+  - Single page application - 4
+  - E-shopy vs portfóliá - 4
+  - Zlatý rez - 5
+  - Malo by byť logo stránky klikateľné? - 6
+  - Slider vs banner - 6
+- **[Typografia webu vs tlačovín](#typografia-webu-vs-tlačovín)** 6 - 7
+- **[Responzívny web dizajn](#responzívny-web-dizajn)** - 7-8
+  - Existujú nejaké pravidlá, ktoré by sme mali dodržiavať?  - 7
+  - Ako by sa stránka mala meniť podľa typu média - 7-8
+  - Zobrazenie podstatných sekcií - 8
+- **[Optimalizácia obrázkov](#optimalizácia-obrázkov)** - 8-9
+  - Rozlíšenie - 8
+  - Veľkosť - 8
+  - Použitie CDN v praxi - 8
+- **[Farby a štýly](#farby-a-štýly)** - 9-10
+  - UX vs UI - 9
+  - Konzistentnosť štýlov a farieb - 9
+- **[Základné pojmy](#základné-pojmy)** - 10-12
+- **[Použitie frameworkov](#použitie-frameworkov)** - 13-14
+  - Najobľúbenejšie PHP frameworky medzi vývojármi - 13-14
+- **[Zdroje](#zdroje)** - 15
 
 # Typy písma a texty
 

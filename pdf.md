@@ -37,7 +37,7 @@ Na vypracovanie dokumentu boli použité nástroje **Visual Studio Code**, **Ado
 - **[Typografia webu vs tlačovín](#typografia-webu-vs-tlačovín)** <span style="float:right">**6 - 7**</span>
 - **[Responzívny web dizajn](#responzívny-web-dizajn)** <span style="float:right">**7 - 8**</span>
   - Existujú nejaké pravidlá, ktoré by sme mali dodržiavať? <span style="float:right">7</span>
-  - Ako by sa stránka mala meniť podľa typu média <span style="float:right">7-8</span>
+  - Ako by sa stránka mala meniť podľa typu média <span style="float:right">7 - 8</span>
   - Zobrazenie podstatných sekcií <span style="float:right">8</span>
 - **[Optimalizácia obrázkov](#optimalizácia-obrázkov)** <span style="float:right">**8 - 9**</span>
   - Rozlíšenie <span style="float:right">8</span>
