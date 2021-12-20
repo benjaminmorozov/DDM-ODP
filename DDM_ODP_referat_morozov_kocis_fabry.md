@@ -7,7 +7,7 @@ Typografia webových stránok
 
 **Autori**: Benjamín Morozov, Filip Kočiš, Ľubomír Fábry II.A
 
-@benjaminmorozov, @fifo260, @lubomirfabry
+[@benjaminmorozov](https://github.com/benjaminmorozov), [@fifo260](https://github.com/fifo260), [@lubomirfabry](https://github.com/lubomirfabry)
 
 **Predmet**: DDM-ODP
 
@@ -18,13 +18,13 @@ Na vypracovanie dokumentu boli použité nástroje **Visual Studio Code**, **Ado
 # Obsah
 
 - **[Typy písma a texty](#typy-písma-a-texty)**
-  - Bezpätkové <span style="float:right">2</span>
-  - Pätkové <span style="float:right">2</span>
-  - Proporciálnosť písiem <span style="float:right">2</span>
-  - Koľko fontov by som mal použiť na jednej stránke? <span style="float:right">3</span>
-  - Dlhé vs krátke texty <span style="float:right">3</span>
-  - Maximálna úroveň nadpisov <span style="float:right">3</span>
-  - Pravidlá na písma <span style="float:right">3</span>
+  - Bezpätkové - 2
+  - Pätkové - 2
+  - Proporciálnosť písiem - 2
+  - Koľko fontov by som mal použiť na jednej stránke? - 3
+  - Dlhé vs krátke texty - 3
+  - Maximálna úroveň nadpisov - 3
+  - Pravidlá na písma - 3
 - **[Rozloženie a prvky stránky](#rozloženie-a-prvky-stránky)**
   - Z-pattern vs F-pattern
   - Single page application
@@ -111,54 +111,54 @@ Na internete v posledných rokoch vzniká zaujímavá senzácia menom **slider**
 
 # Typografia webu vs tlačovín
 
-Zaujímavosťou je práve podobnosť medzi papierovým a elektrickým médiom. Obe formy predávajú informácie rovnakým spôsobom - čítaním (ak nepočítame videá a audionahrávky). Problém však vzniká v ďalšej interakcii. Tlačoviny sú tzv. dvojdimenzionálne médium. To čo máme proste máme a aj keby sme papier otáčali a otvárali koľkokrát by sme len chceli, nič by sa na ňom nezmenilo. Naopak, u webových/elektronických médií je možné jediným klikom prejsť z noviniek o športe na vtipné videá psov. Navigácia je taktiež oveľa jednoduchšia, nakoľko nám stačí stlačiť jedinú skratku - Ctrl+F - a môžeme sa dostať priamo k informácii, ktorú hľadáme, kdežto ak si kúpime encyklopédiu o zvieratách len za účelom toho, aby sme si prečítali o tom, koľko nôh má žirafa, tak by sme si pravdepodobne museli knihu prečítať celú.
+Zaujímavosťou je práve **podobnosť medzi papierovým a elektrickým médiom**. Obe formy **predávajú informácie** rovnakým spôsobom - **čítaním** (ak nepočítame videá a audionahrávky). Problém však vzniká v ďalšej interakcii. **Tlačoviny** sú tzv. **dvojdimenzionálne médium**. To čo máme proste máme a aj keby sme papier otáčali a otvárali koľkokrát by sme len chceli, nič by sa na ňom nezmenilo. Naopak, u **webových/elektronických médií** je možné **jediným klikom prejsť** z noviniek o športe na vtipné videá psov. **Navigácia** je taktiež oveľa jednoduchšia, nakoľko nám **stačí stlačiť jedinú skratku** - <span style="background-color: #333; color: white">⠀Ctrl+F⠀</span> - a môžeme sa **dostať priamo k informácii**, ktorú hľadáme, kdežto ak si kúpime encyklopédiu o zvieratách len za účelom toho, aby sme si prečítali o tom, koľko nôh má žirafa, tak by sme si pravdepodobne **museli knihu prečítať celú**.
 
 ![Ctrl+F](https://community-assets.home-assistant.io/original/3X/7/0/707984acd98a5c848bb2cbbeb1b26767c5273dbe.png)
 
-Problém však vzniká v tom, že nikdy nevieme, ako môže používateľ prijímať danú web-stránku. Nech ju prijíma na smartfóne, na počítači alebo na bankomate, stránku musíme prispôsobiť na úplne každú možnú veľkosť a médium, aké len ide. Dizajnéri a programátori tak dostávajú zbytočne prácu navyše, nakoľko musia vymýšľat zaujímavé spôsoby, ako na hodinky vtiesniť všetok text, ktorý je potrebný. Naopak, u papierového média stačí text navrhnúť raz a vždy bude vytlačený rovnakým spôsobom.
-
-Vzniká tu taktiež problém toho, že nie každý používateľ má rovnaký internet a nemôžeme mu na stránku dať 32MB obrázok, ktorý by sme my, ako vývojári stiahli za menej ako sekundu, kdežto niekto z východného Slovenska by ho sťahoval aj vyše 15 sekúnd. Weby je veľmi dôležité optimalizovať tak, aby boli dostupné úplne všade. Je taktiež dôležité kód zbytočne nepredlžovať, nakoľko nám to môže pridať na náročnosti stránky a na lacnejších a slabších zariadeniach sa môže dokonca zasekávať. Je taktiež zbytočné na stránky vkladať 8K obrázky, keď bude obrázok tvoriť menej ako 30% obrazovky.
+Problém však vzniká v tom, že **nikdy nevieme**, **ako** môže používateľ **prijímať** danú web-stránku. Nech ju prijíma **na smartfóne**, na počítači alebo na bankomate, stránku **musíme prispôsobiť** na úplne **každú možnú veľkosť** a médium, aké len ide. Dizajnéri a programátori tak dostávajú **zbytočne prácu navyše**, nakoľko musia vymýšľat zaujímavé spôsoby, ako na hodinky vtiesniť všetok text, ktorý je potrebný. Naopak, **u papierového média** stačí text **navrhnúť raz** a vždy bude vytlačený **rovnakým spôsobom**.
 
 ![Tlačený dizajn](https://wenceslau-nd.com/wp-content/uploads/2020/09/Domani_Print_09_Wenceslau_News_Design-1.gif)
 
+Vzniká tu taktiež problém toho, že **nie každý používateľ má rovnaký internet** a **nemôžeme** mu na stránku dať **32MB obrázok**, ktorý by sme **my**, ako vývojári **stiahli za menej ako sekundu**, kdežto **niekto z východného Slovenska** by ho sťahoval **aj vyše 15 sekúnd**. Weby je veľmi dôležité optimalizovať tak, aby boli dostupné úplne všade. Je taktiež **dôležité kód zbytočne nepredlžovať**, nakoľko nám to môže pridať na náročnosti stránky a **na lacnejších a slabších zariadeniach** sa môže dokonca **zasekávať**. Je taktiež zbytočné na stránky vkladať **8K obrázky**, keď bude obrázok tvoriť **menej ako 30% obrazovky**.
+
 # Responzívny web dizajn
 
-Je veľmi dôležité, aby sme nezabúdali na to, že by sa na obrazovke nemalo nachádzať príliš veľa elementov naraz. Pri mobilnej verzii stránky by sa nám totiž text mohol stať priam nečitateľným, nakoľko by ho veľa elementov zakrývalo.
-Musíme myslieť aj na to, že aj napriek tomu, že sa nachádzame na takom malom médiu, mali by sme zachovať rovnaké, ba aj väčšie medzery medzi samotnými odstavcami, ikonkami a tlačidlami.
+Je veľmi dôležité, aby sme **nezabúdali** na to, že by sa **na obrazovke nemalo nachádzať príliš veľa elementov** naraz. Pri **mobilnej verzii** stránky by sa nám totiž **text mohol stať priam nečitateľným**, nakoľko by ho veľa elementov zakrývalo.
+Musíme myslieť aj na to, že **aj napriek tomu, že sa nachádzame na takom malom médiu**, mali by sme zachovať rovnaké, ba aj **väčšie medzery medzi samotnými odstavcami**, ikonkami a tlačidlami.
 
-Na mobilnej verzii stránky by sa malo taktiež zmeniť navigačné menu z pozdlhovastého na stlačené, poprípade na malú tzv. "hamburger" ikonu, ktorá zobrazí ďalšie možnosti.
+Na **mobilnej verzii stránky** by sa malo taktiež **zmeniť navigačné menu** z pozdlhovastého na stlačené, poprípade na malú tzv. "hamburger" ikonu, ktorá zobrazí ďalšie možnosti.
 
-Tiež by sa mali odstrániť, poprípade zmenšiť, rušiace prvky. Potvrdenia o cookies by sa mali zmeniť z full-screen potvrdenia na malé tlačidlo na dolnej časti obrazovky.
+Tiež by sa mali **odstrániť**, poprípade zmenšiť, **rušiace prvky**. Potvrdenia o cookies by sa mali zmeniť z full-screen potvrdenia na malé tlačidlo na dolnej časti obrazovky.
 
 > “A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.” - Antoine de Saint-Exupéry
 
-Najhlavnejšie je prispôsobiť user experience pre dotyk. Slidery by mali fungovať pomocou tlačidiel, pomocou preťahovania prstom ale aj klávesnicou naraz. Nikdy totiž nevieme, či čitateľ pozná zariadenie, ktoré používa, poprípade pozná práve tie gestá, ktoré chceme použiť.
+Najhlavnejšie je **prispôsobiť user experience pre dotyk**. Slidery by mali fungovať pomocou **tlačidiel**, pomocou **preťahovania prstom** ale aj **klávesnicou naraz**. Nikdy totiž **nevieme**, či čitateľ pozná zariadenie, ktoré používa, poprípade pozná práve **tie gestá**, ktoré chceme **použiť**.
 
-Na mobilných zariadeniach by mali byť odstránené sekcie, ktoré sa tam veľmi nehodia, teda bočné panely, widgety a floating-tlačítka.
+Na **mobilných zariadeniach** by mali byť **odstránené sekcie**, ktoré sa tam veľmi **nehodia**, teda bočné panely, widgety a floating-tlačítka.
 
 ![Responzívny dizajn](https://assets.awwwards.com/awards/images/2015/07/awwwards-responsive-big.png)
 
 # Optimalizácia obrázkov
 
-Ako sme už spomínali vyššie, je veľmi dôležité nevkladať na web obrázky s príliš vysokým rozlíšením, hlavne, keď sa dané rozlišenie nevyužije naplno. Stránka sa nám na pomalých sieťach bude načítavať príliš pomaly. Naopak do článkov, v ktorých väčšinou chceme vyzdvihnúť určitú časť obrázku, napríklad budovu alebo osobu, je nutné vkladať minimálne Full HD obrázky, teda 1920x1080px. V opačnom prípade môže totiž dôjsť k tomu, že obrázky budú príliš rozpixelované, poprípade rozmazané a článok tak bude rozprávať o niečom, čo ani nevidíme.
+Ako sme už spomínali vyššie, je **veľmi dôležité nevkladať na web obrázky s príliš vysokým rozlíšením**, hlavne, keď sa dané rozlišenie nevyužije naplno. Stránka sa nám na pomalých sieťach bude **načítavať príliš pomaly**. Naopak do článkov, v ktorých väčšinou chceme **vyzdvihnúť určitú časť obrázku**, napríklad budovu alebo osobu, je nutné vkladať **minimálne Full HD obrázky**, teda s rozlíšením 1920x1080px. V **opačnom prípade** môže totiž dôjsť k tomu, že obrázky budú príliš **rozpixelované**, poprípade rozmazané a článok tak bude rozprávať o niečom, čo ani nevidíme.
 
-Je taktiež veľmi dôležité, aby obrázok nezastával na obrazovke viac ako 50% priestoru na výšku. Stránka by sa tak stala veľmi neintuitívnou a príliš náročnou na čítanie. Na mobilných zariadeniach by obrázky mali byť ešte menšie, nakoľko môže nastať situácia, kedy na obrazovke uvidíme veľmi minimálne množstvo textu. V najlepšom prípade by sme mali aj odstrániť akékoľvek bannerové reklamy, ak je to možné.
+Je taktiež veľmi **dôležité**, aby **obrázok nezastával na obrazovke viac ako 50%** priestoru na výšku. Stránka by sa tak stala veľmi neintuitívnou a príliš náročnou na čítanie. Na **mobilných zariadeniach** by obrázky mali byť **ešte menšie**, nakoľko môže nastať situácia, kedy na obrazovke uvidíme veľmi minimálne množstvo textu. V **najlepšom prípade** by sme mali aj **odstrániť akékoľvek bannerové reklamy**, ak je to možné.
 
-Nakoľko nie je možné, aby malé weby, blogy a e-shopy mali servery po celom svete, stáva sa, že ich načítanie z opačnej strany sveta je oveľa pomalšie ako o mesto vedľa. Práve preto sa používajú tzv. CDN. Jedná sa o centralizované servery, ktoré nám poskytujú stiahnutie zdrojov zo serverov po celom svete. Nemusíme teda čakať 5 sekúnd na to, aby sa nám stiahol jeden .css súbor, ktorý je hostovaný na veľmi pomalom serveri.
+Nakoľko nie je možné, aby malé weby, blogy a e-shopy mali servery po celom svete, stáva sa, že ich **načítanie z opačnej strany sveta** je oveľa **pomalšie** ako o mesto vedľa. Práve preto sa **používajú** tzv. **CDN**. Jedná sa o **centralizované servery**, ktoré nám **poskytujú stiahnutie zdrojov** zo **serverov po celom svete**. Nemusíme teda čakať 5 sekúnd na to, aby sa nám stiahol jeden .css súbor, ktorý je hostovaný na veľmi pomalom serveri.
 
 ![CDN](https://res.cloudinary.com/lwgatsby/f_auto/www/uploads/2020/09/2-how-does-a-cdn-work-1.jpg)
 
 # Farby a štýly
 
-V grafickom dizajne existujú dva pojmy - user experience a user interface. User experience hovorí o intuitívnosti dizajnu, o tom, ako by stránka mala byť ľahko použiteľná pre všetkých a ako by všetky ikony mali signalizovať to, čo skutočne robia. Nemala by byť zbytočne plná nepekných elementov, ktoré so sebou nijako nesúvisia a navzájom si zavadzajú. Na základný návrh user experience sa väčšinou používajú prototypy a wireframy.
+V grafickom dizajne **existujú dva pojmy** - **user experience** a **user interface**. User experience hovorí o **intuitívnosti dizajnu**, o tom, ako by stránka mala byť **ľahko použiteľná pre všetkých** a ako by všetky ikony mali signalizovať to, čo skutočne robia. Nemala by byť **zbytočne plná nepekných elementov**, ktoré so sebou nijako **nesúvisia** a navzájom si zavadzajú. Na základný návrh user experience sa **väčšinou** používajú prototypy a **wireframy**.
 
-Naopak, user interface hovorí o tom, ako stránka, poprípade aplikácia vyzerá. Hovorí o tom, či je dizajnovo moderná a či má konzistentný design language. Na stránke by sa nám nemali meniť hlavné farby, ktoré používame. Tiež by sa nám nemala drasticky meniť rozloha stránky bez akéhokoľvek používateľského vstupu.
+Naopak, **user interface hovorí** o tom, **ako stránka**, poprípade aplikácia **vyzerá**. Hovorí o tom, či **je dizajnovo moderná** a či **má konzistentný design language**. Na stránke by sa nám **nemali meniť hlavné farby**, ktoré používame. Tiež by sa nám **nemala drasticky meniť rozloha stránky** bez akéhokoľvek používateľského vstupu.
 
-Považuje sa za vhodné využívať, aj keď už často používané, moderné prvky webového dizajnu, nakoľko sú použivatelia na internete zvyknutý na fungovanie rôznych tlačidiel rovnakým spôsobom naprieč viacerými webmi.
+Považuje sa za **vhodné využívať**, aj keď už často používané, **moderné prvky webového dizajnu**, nakoľko sú **použivatelia** na internete **zvyknutí na fungovanie rôznych tlačidiel** rovnakým spôsobom naprieč viacerými webmi.
 
-Dôležité je tiež zachovávať na jednom webe rovnakú farebnú paletu a štýl. Ak sú nadpisy červenou farbou, rovnakou farbou by mali ostať všade. Ak majú tlačidlá "sklenený dizajn", rovnako by mali vyzerať aj na mobilných zariadeniach.
+**Dôležité** je tiež **zachovávať** na jednom webe **rovnakú farebnú paletu** a štýl. Ak sú nadpisy červenou farbou, rovnakou farbou by mali ostať všade. Ak majú tlačidlá "sklenený dizajn", rovnako by mali vyzerať aj na mobilných zariadeniach.
 
-Ak je web dizajnovaný s myšlienkou konzistencie na prvom mieste, jej používatelia sa o nej začnú učiť rôzne veci bez toho, aby nad tým vôbec premýšľali. Webovú stránku si môžeme predstaviť ako náš domov. Jedná sa o miesto, ktorým vieme navigovať stále, bez sústredenia sa na to. Ak k nám príde návšteva, môže byť na určitý čas zmätená z toho, kde sa nachádza toaleta, kde je obývačka a kde je gauč, no časom sa tieto veci naučí. Úlohou dizajnéra je tento čas čo najviac skrátiť a byť čo najviac konzistentný, aby nedošlo k tomu, že používateľ bude očakávať tlačidlo späť na stránke s chybou 404, keď bolo vždy na každej inej podstránke.
+Ak je **web dizajnovaný s myšlienkou konzistencie** na prvom mieste, jej používatelia sa o nej začnú učiť rôzne veci bez toho, aby nad tým vôbec premýšľali. **Webovú stránku** si môžeme **predstaviť** ako náš **domov**. Jedná sa o miesto, ktorým vieme navigovať stále, bez sústredenia sa na to. Ak k nám príde návšteva, môže byť na určitý čas zmätená z toho, kde sa nachádza toaleta, kde je obývačka a kde je gauč, no časom sa tieto veci naučí. **Úlohou dizajnéra** je tento čas čo najviac skrátiť a **byť čo najviac konzistentný**, aby nedošlo k tomu, že používateľ bude očakávať tlačidlo späť na stránke s chybou 404, keď bolo vždy na každej inej podstránke.
 
 ![UX vs UI](https://grafika.sk/wp-content/uploads/2016/07/rozdiel-UX-a-UI.png)
 
@@ -182,14 +182,29 @@ Ak je web dizajnovaný s myšlienkou konzistencie na prvom mieste, jej používa
 **Cache**
 > Jedná sa o časť dát, ktorá sa z každej webovej stránky ukladá lokálne, do počítača. Vždy, keď navštívime nejakú službu, všetky súbory, o ktoré požiadáme z jej serverov, sa nám stiahnú do cache za účelom zaručenia toho, že ak stránku navštívime niekedy v budúcnosti, dané súbory nebudeme musieť sťahovat už znova. Používajú sa taktiež na zdieľanie informácií naprieč webovými stránkami (napr. aby sme sa nemuseli prihlasovať do každej služby Google po jednom).
 
+**CMS**
+> Jedná sa o serverový systém, ktorého úlohou je spravovať, archivovať, vytvárať a prezentovať obsah a dáta používateľovi web stránky. Umožňuje nám vytvárať, upravovať a zobrazovať príspevky napr. na blogu.
+
+**Plugin**
+> Rozšírenie akéhokoľvek programu, ktoré pridáva prídavnú funkcionalitu. Môže sa napríklad jednať o pluginy, ktoré pridávajú cookies pop-upy do WordPressu.
+
 **Minifikácia**
 > Spôsob optimalizácie akéhokoľvek kódu. Sadou nástrojov a pravidiel kód zredukujeme na najmenšiu veľkosť napríklad odstránením prebytočných medzier, kompilátorom-ignorovaných znakov, komentárov a nepoužívaných funkcií za cieľom toho, aby sa čo najviac zmenšila finálna veľkosť súboru.
 
+**Dribbble**
+> Zaujímavá sociálna sieť vytvorená pre digitálnych dizajnérov a kreatívnych ľudí. Môžu tu zdieľať svoje kreácia z mnohých častí grafického dizajnu - webový, papierový, animovaný, vektorový, mobilný, produktový a typografický dizajn.
+
+**Flaticon**
+> Užitočná webová databáza, ktorá grafickým dizajnérom ponúka širokú ponuku rôznych ikoniek, slúžiacich na akékoľvek účely.
+
 **Favicon**
-> Ikonka web stránky.
+> Ikonka web stránky. Dôležitým cieľom grafického dizajnéra je vytvoriť ikonku, ktorá bude v čo-najmenšiom formáte čo-najviac rozoznateľná.
 
 **Lazy loading**
 > Načítavania počas scrollovania. Dokým nie je časť stránky viditeľná na obrazovke, nie je načítaná.
+
+**Bounce rate**
+> Percento, ktoré určuje počet čitateľov, ktorí opustia náš webu bez akejkoľvek interakcie s danou stránkou.
 
 **Wireframe**
 > Základný návrh stránky bez akéhokoľvek zaujímaveho vzhľadu. Hovorí o rozlohe webu, kde sa čo bude nachádzať, a ako to bude so sebou spolupracovať. Sú väčšinou tvorené v čiernobielej forme, pričom sú miesto obrázkov používané zástupné preškrtnuté štvrce. Snažia sa nedotýkať vizuálnej stránky webu, no zaujímať sa skôr o jeho organizáciu, obsah a funkcie. Wireframe je možné vytvoriť v programoch Adobe Illustrator, Adobe Xd, Microsoft Visio, atd. Skutočnosťou je však aj to, že wireframe je možné vytvoriť úplne jednoducho na papier, či na bielu tabuľu. Nemusí byť vôbec interaktívny, stačí aby vyvolal odpovede na otázky ohľadom kompozície web stránky.
@@ -213,6 +228,12 @@ Medzi najobľúbenejšie PHP frameworky patria:
 3. **Symfony** - framework, ktorého cieľom je vývojárovi čo najviac uľahčiť prácu. Je osekaný do množstva konfiguračných súborov, ktoré sa píšu vo veľmi úspornom jazyku YAML. Obsahuje množstvo pluginov, ktoré majú programátorovi pomôcť v perfektovaní svojho webu.
 ![Symfony](https://miro.medium.com/max/1024/0*YYimU29xUrOcvh8m.)
 
+4. **CakePHP** - jeden z najstarších frameworkov. Ponúka solídny základ, mnohonásobne lepší výkon v reálnom prostredí, má prepojený systém pluginov a tém, pričom je jeho výhodou aj ľahšia lokalizácia webu pre široké škály používateľov.
+![CakePHP](https://miro.medium.com/max/750/1*butnM2l-USwSb7wE_Vj-JA.png)
+
+5. **Laminas Project** - jedná sa o zbierku profesionálnych balíkov PHP, slúžiacich na pokročilý vývoj webových aplikácií a služieb. Je spravovaný Linux Foundation.
+![Laminas Project](https://www.galvao.eti.br/wp-content/uploads/2019/04/LaminasHightlight-1280x720.png)
+
 # Zdroje
 ##### Použité knižné zdroje:
 1. [Modern PHP, O'Reilly Media, Inc., 2015, ISBN9781491905012](https://www.oreilly.com/library/view/modern-php/9781491905173)
@@ -220,3 +241,5 @@ Medzi najobľúbenejšie PHP frameworky patria:
 2. [Laravel: Up & Running, 2nd Edition, O'Reilly Media, Inc., 2019, ISBN9781492041214](https://www.oreilly.com/library/view/laravel-up/9781492041207)
 
 3. [Web Design with HTML and CSS Digital Classroom, (Book and Video Training) 1st Editionn, AGI Creative Team, Jennifer Smith, Jeremy Osborn, 2011, ISBN9780470583609](https://www.oreilly.com/library/view/web-design-with/9781118094280)
+
+4. [The Principles of Beautiful Web Design: Designing Great Web Sites is Not Rocket Science!, Jason Beaird, James George, 2014, ISBN9780470583609](https://www.amazon.com/Principles-Beautiful-Web-Design-Designing/dp/0992279445)
