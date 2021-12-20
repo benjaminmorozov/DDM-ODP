@@ -1,48 +1,53 @@
-# **Typografia webových stránok**
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+</style>
+<h1 style="font-family: 'Roboto Slab', serif;">
+Typografia webových stránok
+</h1>
 
-Autori: Benjamín Morozov, Filip Kočiš, Ľubomír Fábry II.A
+**Autori**: Benjamín Morozov, Filip Kočiš, Ľubomír Fábry II.A
 
 @benjaminmorozov, @fifo260, @lubomirfabry
 
-Predmet: DDM-ODP
+**Predmet**: DDM-ODP
 
-Vypracované: 14. 12. 2021
+**Vypracované**: 14. 12. 2021
 
-Na vypracovanie dokumentu boli použité nástroje Visual Studio Code, Adobe Acrobat DC a doxygen (1.9.2).
+Na vypracovanie dokumentu boli použité nástroje **Visual Studio Code**, **Adobe Acrobat DC** a **doxygen** (1.9.2).
 
 # Obsah
 
-- [Typy písma a texty](#typy-písma-a-texty)
-  - Bezpätkové
-  - Pätkové
-  - Proporciálnosť písiem
-  - Koľko fontov by som mal použiť na jednej stránke?
-  - Dlhé vs krátke texty
-  - Maximálna úroveň nadpisov
-  - Pravidlá na písma
-- [Rozloženie a prvky stránky](#rozloženie-a-prvky-stránky)
+- **[Typy písma a texty](#typy-písma-a-texty)**
+  - Bezpätkové <span style="float:right">2</span>
+  - Pätkové <span style="float:right">2</span>
+  - Proporciálnosť písiem <span style="float:right">2</span>
+  - Koľko fontov by som mal použiť na jednej stránke? <span style="float:right">3</span>
+  - Dlhé vs krátke texty <span style="float:right">3</span>
+  - Maximálna úroveň nadpisov <span style="float:right">3</span>
+  - Pravidlá na písma <span style="float:right">3</span>
+- **[Rozloženie a prvky stránky](#rozloženie-a-prvky-stránky)**
   - Z-pattern vs F-pattern
   - Single page application
   - E-shopy vs portfóliá
   - Zlatý rez
   - Malo by byť logo stránky klikateľné?
   - Slider vs banner
-- [Typografia webu vs tlačovín](#typografia-webu-vs-tlačovín)
-- [Responzívny web dizajn](#responzívny-web-dizajn)
+- **[Typografia webu vs tlačovín](#typografia-webu-vs-tlačovín)**
+- **[Responzívny web dizajn](#responzívny-web-dizajn)**
   - Existujú nejaké pravidlá, ktoré by sme mali dodržiavať?
   - Ako by sa stránka mala meniť podľa typu média
   - Zobrazenie podstatných sekcií
-- [Optimalizácia obrázkov](#optimalizácia-obrázkov)
+- **[Optimalizácia obrázkov](#optimalizácia-obrázkov)**
   - Rozlíšenie
   - Veľkosť
   - Použitie CDN v praxi
-- [Farby a štýly](#farby-a-štýly)
+- **[Farby a štýly](#farby-a-štýly)**
   - UX vs UI
   - Konzistentnosť štýlov a farieb
-- [Základné pojmy](#základné-pojmy)
-- [Použitie frameworkov](#použitie-frameworkov)
+- **[Základné pojmy](#základné-pojmy)**
+- **[Použitie frameworkov](#použitie-frameworkov)**
   - Najobľúbenejšie PHP frameworky medzi vývojármi
-- [Zdroje](#zdroje)
+- **[Zdroje](#zdroje)**
 
 # Typy písma a texty
 
@@ -74,31 +79,35 @@ Autor by sa mal taktiež snažiť zachovať čo **najkratší text**, aby sa v �
 
 Dôležité je taktiež **zachovať čitateľnosť** aj na tých **najmenších zariadeniach**. Je teda dôležité **nevnucovať na malé obrazovky obrovské písma**, ktoré sa nebudú dobre škálovať.
 
+Dôležité je na webových stránkach taktiež **používať veľkosti písiem**, ktoré budú ich **dôležitosť dostatočne reprezentovať**. Pre **nadpisy** sa väčšinou používa **najväčšie písmo**, pričom pre **texty**, poprípade **disclaimery**, sa používajú často tie **najmenšie písma**, s potrebou toho, zaistiť, aby bolo dané písmo stále čitateľné.
+
 **Neexistujú žiadne pravidlá** na písma. Môžeme si dokonca urobiť **úplne vlastné**, no je dôležité na ne **odkázať**, aby ich bolo prehliadačom **možné stiahnúť**. Je **hlúpe** hovoriť, ako by font nemal obsahovať **takéto a takéto grafické prvky**, ako by nemal byť **takto a takto vysoký**, nakoľko je všetko práve na **autorovi grafického média**. Typografia je v podstate **druh elektronického umenia**.
 
 ![Typografia je v podstate druh elektronického umenia](https://www.shillingtoneducation.com/content-blog/uploads/2019/09/Typography_Anatomy.jpg)
 
 # Rozloženie a prvky stránky
 
-Jednou z najväčších zaujímavostí vo webovom dizajne je práve forma alebo spôsob, ako si stránku čítame a pozorujeme ju. Na stránkach, ktoré sú plné informácií a obrázkov, ktoré nás majú niečo naučiť a niečim zaujať sa používa práve tzv. F-pattern, kedy čítame riadok po riadku s tým, že sa vraciame na rovnakú vertikálnu čiaru, aby sme pokračovali v odstavci.
+Jednou z **najväčších zaujímavostí** vo webovom dizajne je práve forma alebo spôsob, **ako si stránku čítame** a pozorujeme ju. Na stránkach, ktoré sú **plné informácií a obrázkov**, ktoré nás majú niečo naučiť a niečim zaujať sa používa práve tzv. **F-pattern**, kedy čítame **riadok po riadku** s tým, že sa vraciame na **rovnakú vertikálnu čiaru**, aby sme pokračovali v odstavci.
 
-Existuje však aj tzv. Z-pattern spôsob čítania, ktorý sa používa na stránkach, ktoré majú čitateľa zaujať skôr ich grafickým dizajnom, ich prvkami a ich obrázkami. Čítame teda hlavne nadpisy, obrázky ale aj slidery a bočné panely. Na rovnakom princípe fungujú aj sociálne siete.
+Existuje však aj tzv. **Z-pattern** spôsob čítania, ktorý sa používa na stránkach, ktoré majú čitateľa **zaujať skôr ich grafickým dizajnom**, ich prvkami a ich obrázkami. Čítame teda hlavne nadpisy, obrázky ale aj slidery a bočné panely. Na rovnakom princípe fungujú aj **sociálne siete**.
 
 ![Proporciálnosť písiem](https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/07/heatmap-eye-tracking.jpg?auto=format&q=60&fit=max&w=930)
 
-Medzi formu webových stránok a ich prijímania patrí aj tzv. SAP, teda single page application. Jedná sa o stránku, ktorá nikdy nemení svoju url a pracujeme v podstate s vždy rovnakým rozložením. Jej obsah je však dynamicky tvorený rôznymi server-side skriptmi. Príkladom je Facebook, ktorý na svoju hlavnú stránku po obnovení vždy umiestni iné obrázky a príspevky aj napriek tomu, že ich tam nikto ručne nevpísal.
+Medzi formu webových stránok a ich prijímania patrí aj tzv. **SAP**, teda single page application. Jedná sa o stránku, ktorá **nikdy nemení svoju URL adresu** a pracujeme v podstate s vždy rovnakým rozložením. Jej obsah je však **dynamicky tvorený** rôznymi server-side skriptmi. Príkladom je **Facebook,** ktorý na svoju hlavnú stránku **po obnovení vždy umiestni iné obrázky** a príspevky aj napriek tomu, že ich tam nikto ručne nevpísal.
 
-Práve takéto server-side skripty sa používajú na e-shopoch, na ktorých aj hovoria o tom, ku ktorému košíku priradiť aký tovar, a k akému zákazníkovi priradiť akú objednávku. Takéto skripty nie sú veľmi potrebné na osobných a personálnych portfóliách, ktoré by mali byť statické a ich obsah by sa nemal na základe žiadneho používateľského vstupu nijako meniť.
+Práve takéto **server-side skripty** sa používajú na **e-shopoch**, na ktorých aj hovoria o tom, ku ktorému **košíku** priradiť **aký tovar**, a k akému zákazníkovi priradiť akú **objednávku**. Takéto skripty **nie sú veľmi potrebné** na **osobných a personálnych portfóliách**, ktoré by mali byť **statické** a ich obsah by sa nemal na základe žiadneho používateľského vstupu nijako meniť.
+
+Rozdielom medzi **e-shopmi** a **osobnými portfóliami** je taktiež použitie **rozdielnych sekcií**, ako je napríklad **použitie okrasných písiem** a **väčšia pravdepodobnosť** použitia **ikoniek a linkov** pre **sociálne siete** na **osobných portfóliach**, kdežto na webových stránkach typu **e-shop** je pravidelnejšie **použitie sekcií na vyhľadávanie** a **pop-upov**, ktoré informujú o **novinkách** v katalógu.
 
 ![Facebook](https://cdn.vox-cdn.com/thumbor/IdBI4T4fH6vebzkYAz7JqkdSylE=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19954379/NRP_the_new_facebook.com_final_1.jpg)
 
-Zlatý rez nám hovorí o nejakom myslenom vedomí dôležitosti prvkov na základe ich rozmiestnenia a veľkosti. Najdôležitejšie prvky by mali byť na stránke rozmiestnené čo najbližšie používateľovi s tým, že akékoľvek ďalšie a nepodstatné informácie by mali byť vzhľadovo menšie a menej-prepracované ako ta hlavná.
+**Zlatý rez** nám hovorí o nejakom **myslenom vedomí dôležitosti prvkov na základe ich rozmiestnenia a veľkosti**. **Najdôležitejšie prvky** by mali byť na stránke rozmiestnené čo **najbližšie používateľovi** s tým, že akékoľvek ďalšie a **nepodstatné informácie** by mali byť vzhľadovo **menšie** a menej-prepracované ako ta hlavná.
 
 ![Zlatý rez](https://blueweb.bwcdn.net/media/2021/08/1/4/7.png)
 
-Jedným zo základov webového dizajnu je aj user experience. Používateľovi by malo byť na pohľad jasné, čo aké tlačidlo robí bez toho, aby ho musel najprv vyskúšať. Pre čitateľa je teda samozrejmé, že ak klikne na logo stránky, tak by ho malo zaviesť na nejakú centrálu, teda hlavnú stránku, zameranú práve na danú značku.
+Jedným zo **základov webového dizajnu** je aj **user experience**. Používateľovi by **malo byť na pohľad jasné**, čo aké tlačidlo robí **bez toho**, aby ho musel **najprv vyskúšať**. Pre čitateľa je teda samozrejmé, že ak klikne na **logo stránky**,** tak by ho malo **zaviesť na nejakú centrálu**, teda hlavnú stránku, zameranú práve na danú značku.
 
-Na internete v posledných rokoch vzniká zaujímavá senzácia menom slider. Jedná sa o typ banneru (statická časť webu, ktorá zobrazuje najdôležitejšie informácie na jednom mieste), ktorý je spracovaný formou galérie. Dokáže teda zobraziť oveľa viacej informácií ako jeho náprotivok.
+Na internete v posledných rokoch vzniká zaujímavá senzácia menom **slider**. Jedná sa o **typ banneru** (statická časť webu, ktorá zobrazuje najdôležitejšie informácie na jednom mieste), ktorý je **spracovaný formou galérie**. Dokáže teda zobraziť oveľa viacej informácií ako jeho náprotivok.
 
 # Typografia webu vs tlačovín
 
@@ -155,29 +164,38 @@ Ak je web dizajnovaný s myšlienkou konzistencie na prvom mieste, jej používa
 
 # Základné pojmy
 
-Frameworks
+**Frameworks**
 > Knižnica podporných programov, radu API, návrhových vzorov, prídavných funkcií a skriptov, s pomocou ktorej sme schopní vytvoriť funkčnú službu. Slúži na uľahčenie tvorby web stránky.
 
-Front-end
+**Front-end**
 > Predná časť stránky - tá, ktorú vidíme.
 
-Back-end
+**Back-end**
 > Zadná časť stránky - tá, ktorú nevidíme. Jedná sa o všetko, čo sa deje na pozadí.
 
-404
+**Bootstrap**
+> Otvorená sada/knižnica Javascriptových, CSS a HTML nástrojov pre tvorbu responzívneho, krásneho webového dizajnu, ktorý v prvom rade myslí na mobilný zážitok.
+
+**404**
 > Chybový kód, ktorý hovorí o tom, že súbor alebo služba nebola nájdená.
 
-Favicon
+**Cache**
+> Jedná sa o časť dát, ktorá sa z každej webovej stránky ukladá lokálne, do počítača. Vždy, keď navštívime nejakú službu, všetky súbory, o ktoré požiadáme z jej serverov, sa nám stiahnú do cache za účelom zaručenia toho, že ak stránku navštívime niekedy v budúcnosti, dané súbory nebudeme musieť sťahovat už znova. Používajú sa taktiež na zdieľanie informácií naprieč webovými stránkami (napr. aby sme sa nemuseli prihlasovať do každej služby Google po jednom).
+
+**Minifikácia**
+> Spôsob optimalizácie akéhokoľvek kódu. Sadou nástrojov a pravidiel kód zredukujeme na najmenšiu veľkosť napríklad odstránením prebytočných medzier, kompilátorom-ignorovaných znakov, komentárov a nepoužívaných funkcií za cieľom toho, aby sa čo najviac zmenšila finálna veľkosť súboru.
+
+**Favicon**
 > Ikonka web stránky.
 
-Lazy loading
+**Lazy loading**
 > Načítavania počas scrollovania. Dokým nie je časť stránky viditeľná na obrazovke, nie je načítaná.
 
-Wireframe
+**Wireframe**
 > Základný návrh stránky bez akéhokoľvek zaujímaveho vzhľadu. Hovorí o rozlohe webu, kde sa čo bude nachádzať, a ako to bude so sebou spolupracovať. Sú väčšinou tvorené v čiernobielej forme, pričom sú miesto obrázkov používané zástupné preškrtnuté štvrce. Snažia sa nedotýkať vizuálnej stránky webu, no zaujímať sa skôr o jeho organizáciu, obsah a funkcie. Wireframe je možné vytvoriť v programoch Adobe Illustrator, Adobe Xd, Microsoft Visio, atd. Skutočnosťou je však aj to, že wireframe je možné vytvoriť úplne jednoducho na papier, či na bielu tabuľu. Nemusí byť vôbec interaktívny, stačí aby vyvolal odpovede na otázky ohľadom kompozície web stránky.
 > ![Wireframe](https://i.ytimg.com/vi/zQ3Cn3EQz3k/maxresdefault.jpg)
 
-WYSIWYG
+**WYSIWYG**
 > What You See Is What You Get - forma písania článkov v redakčných systémoch. To, čo ako autor vložíme, bude to, čo na stránke uvidíme ako finálny výsledok. Myšlienkou WYSIWYG editorov je vytvorenie webových stránok v priamom zobrazení dizajnu, pričom program na pozadí napíše HTML a CSS za nás priamo v reálnom čase. Umožňujú nám písať články a iný obsah pre web bez akejkoľvek znalosti HTML a CSS.
 > ![WYSIWYG](https://i.postimg.cc/xjHPdYJW/image.png)
 
@@ -197,8 +215,8 @@ Medzi najobľúbenejšie PHP frameworky patria:
 
 # Zdroje
 ##### Použité knižné zdroje:
-[Modern PHP, O'Reilly Media, Inc., 2015, ISBN9781491905012](https://www.oreilly.com/library/view/modern-php/9781491905173)
+1. [Modern PHP, O'Reilly Media, Inc., 2015, ISBN9781491905012](https://www.oreilly.com/library/view/modern-php/9781491905173)
 
-[Laravel: Up & Running, 2nd Edition, O'Reilly Media, Inc., 2019, ISBN9781492041214](https://www.oreilly.com/library/view/laravel-up/9781492041207)
+2. [Laravel: Up & Running, 2nd Edition, O'Reilly Media, Inc., 2019, ISBN9781492041214](https://www.oreilly.com/library/view/laravel-up/9781492041207)
 
-[Web Design with HTML and CSS Digital Classroom, (Book and Video Training) 1st Editionn, AGI Creative Team, Jennifer Smith, Jeremy Osborn, 2011, ISBN9780470583609](https://www.oreilly.com/library/view/web-design-with/9781118094280)
+3. [Web Design with HTML and CSS Digital Classroom, (Book and Video Training) 1st Editionn, AGI Creative Team, Jennifer Smith, Jeremy Osborn, 2011, ISBN9780470583609](https://www.oreilly.com/library/view/web-design-with/9781118094280)
