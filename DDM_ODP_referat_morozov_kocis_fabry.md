@@ -20,14 +20,14 @@ Na vypracovanie dokumentu boli použité nástroje **Visual Studio Code**, **Ado
   - Dlhé vs krátke texty - 3
   - Maximálna úroveň nadpisov - 3
   - Pravidlá na písma - 3
-- **[Rozloženie a prvky stránky](#rozloženie-a-prvky-stránky)** 4 - 6
+- **[Rozloženie a prvky stránky](#rozloženie-a-prvky-stránky)** - 4-6
   - Z-pattern vs F-pattern - 4
   - Single page application - 4
   - E-shopy vs portfóliá - 4
   - Zlatý rez - 5
   - Malo by byť logo stránky klikateľné? - 6
   - Slider vs banner - 6
-- **[Typografia webu vs tlačovín](#typografia-webu-vs-tlačovín)** 6 - 7
+- **[Typografia webu vs tlačovín](#typografia-webu-vs-tlačovín)** - 6-7
 - **[Responzívny web dizajn](#responzívny-web-dizajn)** - 7-8
   - Existujú nejaké pravidlá, ktoré by sme mali dodržiavať?  - 7
   - Ako by sa stránka mala meniť podľa typu média - 7-8
