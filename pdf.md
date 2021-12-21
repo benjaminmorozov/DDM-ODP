@@ -188,7 +188,7 @@ Ak je **web dizajnovaný s myšlienkou konzistencie** na prvom mieste, jej použ
 > Chybový kód, ktorý hovorí o tom, že súbor alebo služba nebola nájdená.
 
 **Cache**
-> Jedná sa o časť dát, ktorá sa z každej webovej stránky ukladá lokálne, do počítača. Vždy, keď navštívime nejakú službu, všetky súbory, o ktoré požiadáme z jej serverov, sa nám stiahnú do cache za účelom zaručenia toho, že ak stránku navštívime niekedy v budúcnosti, dané súbory nebudeme musieť sťahovat už znova. Používajú sa taktiež na zdieľanie informácií naprieč webovými stránkami (napr. aby sme sa nemuseli prihlasovať do každej služby Google po jednom).
+> Jedná sa o časť dát, ktorá sa z každej webovej stránky ukladá lokálne, do počítača. Vždy, keď navštívime nejakú službu, všetky súbory, o ktoré požiadáme z jej serverov, sa nám stiahnú do cache za účelom zaručenia toho, že ak stránku navštívime niekedy v budúcnosti, dané súbory nebudeme musieť sťahovať už znova. Používajú sa taktiež na zdieľanie informácií naprieč webovými stránkami (napr. aby sme sa nemuseli prihlasovať do každej služby Google po jednom).
 
 **CMS**
 > Jedná sa o serverový systém, ktorého úlohou je spravovať, archivovať, vytvárať a prezentovať obsah a dáta používateľovi web stránky. Umožňuje nám vytvárať, upravovať a zobrazovať príspevky napr. na blogu.
