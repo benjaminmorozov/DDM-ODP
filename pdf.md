@@ -215,7 +215,7 @@ Ak je **web dizajnovaný s myšlienkou konzistencie** na prvom mieste, jej použ
 > Percento, ktoré určuje počet čitateľov, ktorí opustia náš webu bez akejkoľvek interakcie s danou stránkou.
 
 **Wireframe**
-> Základný návrh stránky bez akéhokoľvek zaujímaveho vzhľadu. Hovorí o rozlohe webu, kde sa čo bude nachádzať, a ako to bude so sebou spolupracovať. Sú väčšinou tvorené v čiernobielej forme, pričom sú miesto obrázkov používané zástupné preškrtnuté štvrce. Snažia sa nedotýkať vizuálnej stránky webu, no zaujímať sa skôr o jeho organizáciu, obsah a funkcie. Wireframe je možné vytvoriť v programoch Adobe Illustrator, Adobe Xd, Microsoft Visio, atd. Skutočnosťou je však aj to, že wireframe je možné vytvoriť úplne jednoducho na papier, či na bielu tabuľu. Nemusí byť vôbec interaktívny, stačí aby vyvolal odpovede na otázky ohľadom kompozície web stránky.
+> Základný návrh stránky bez akéhokoľvek zaujímavého vzhľadu. Hovorí o rozlohe webu, kde sa čo bude nachádzať, a ako to bude so sebou spolupracovať. Sú väčšinou tvorené v čiernobielej forme, pričom sú miesto obrázkov používané zástupné preškrtnuté štvrce. Snažia sa nedotýkať vizuálnej stránky webu, no zaujímať sa skôr o jeho organizáciu, obsah a funkcie. Wireframe je možné vytvoriť v programoch Adobe Illustrator, Adobe Xd, Microsoft Visio, atd. Skutočnosťou je však aj to, že wireframe je možné vytvoriť úplne jednoducho na papier, či na bielu tabuľu. Nemusí byť vôbec interaktívny, stačí aby vyvolal odpovede na otázky ohľadom kompozície web stránky.
 > ![Wireframe](https://i.ytimg.com/vi/zQ3Cn3EQz3k/maxresdefault.jpg)
 
 **WYSIWYG**
