@@ -62,12 +62,12 @@ llllllll - 8 písmen
  - **neproporciálne písma** - každé písmeno má vyhradený rovnaký priestor, všetky znaky majú rovnakú šírku.
  - **proporciálne písma** - každé písmeno má rozdielnú šírku a voľný priestor. Takéto písma sa nám môžu zdať ľahšie čitateľné.
 
-> “If there’s one thing you learn by working on a lot of different web sites, it’s that almost any design idea–no matter how appallingly bad–can be made usable in the right circumstances, with enough effort.” - Steve Krug
+> “If there’s one thing you learn by working on a lot of different web sites, it’s that almost any design idea – no matter how appallingly bad – can be made usable in the right circumstances, with enough effort.” - Steve Krug
 
 ![Proporciálnosť písiem](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Propvsmono.svg/220px-Propvsmono.svg.png)
 
 Pri **dizajne webov** a iných grafických médií vzniká vždy u jeho autora otázka - **môžem použiť viac ako tri písma**? Kedy sa z textu stáva nekonzistentná obluda?
-Neexistuje **žiadne pevne dané pravidlo**, ktoré by odpovedalo na túto otázku. V jednom texte by sme však **nemali prepínať medzi rôznymi písmami** a mali by sme sme byť konzistentní. Ak má jeden nadpis sans-serif font, tak aj ostatné nadpisy budú mať rovnaký font.
+Neexistuje **žiadne pevne dané pravidlo**, ktoré by odpovedalo na túto otázku. V jednom texte by sme však **nemali prepínať medzi rôznymi písmami** a mali by sme byť konzistentní. Ak má jeden nadpis sans-serif font, tak aj ostatné nadpisy budú mať rovnaký font.
 V praxi sa teda typicky využívajú **maximálne 3 fonty** za účelom zachovania **vernosti jednotného dizajnu**.
 
 Autor by sa mal taktiež snažiť zachovať čo **najkratší text**, aby sa v ňom čitateľ nestratil. Je taktiež dôležité udržiavať **vety vždy čo najkratšie**, ako je možné, aby si čitateľ vetu **nemusel čítať 3krát**, len aby ju pochopil.
@@ -82,11 +82,11 @@ Dôležité je na webových stránkach taktiež **používať veľkosti písiem*
 
 # Rozloženie a prvky stránky
 
-Jednou z **najväčších zaujímavostí** vo webovom dizajne je práve forma alebo spôsob, **ako si stránku čítame** a pozorujeme ju. Na stránkach, ktoré sú **plné informácií a obrázkov**, ktoré nás majú niečo naučiť a niečim zaujať sa používa práve tzv. **F-pattern**, kedy čítame **riadok po riadku** s tým, že sa vraciame na **rovnakú vertikálnu čiaru**, aby sme pokračovali v odstavci.
+Jednou z **najväčších zaujímavostí** vo webovom dizajne je práve forma alebo spôsob, **ako si stránku čítame** a pozorujeme ju. Na stránkach, ktoré sú **plné informácií a obrázkov**, ktoré nás majú niečo naučiť a niečim zaujať, sa používa práve tzv. **F-pattern**, kedy čítame **riadok po riadku**, s tým, že sa vraciame na **rovnakú vertikálnu čiaru**, aby sme pokračovali v odstavci.
 
 Existuje však aj tzv. **Z-pattern** spôsob čítania, ktorý sa používa na stránkach, ktoré majú čitateľa **zaujať skôr ich grafickým dizajnom**, ich prvkami a ich obrázkami. Čítame teda hlavne nadpisy, obrázky ale aj slidery a bočné panely. Na rovnakom princípe fungujú aj **sociálne siete**.
 
-![Proporciálnosť písiem](https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/07/heatmap-eye-tracking.jpg?auto=format&q=60&fit=max&w=930)
+![F-pattern](https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/07/heatmap-eye-tracking.jpg?auto=format&q=60&fit=max&w=930)
 
 Medzi formu webových stránok a ich prijímania patrí aj tzv. **SAP**, teda single page application. Jedná sa o stránku, ktorá **nikdy nemení svoju URL adresu** a pracujeme v podstate s vždy rovnakým rozložením. Jej obsah je však **dynamicky tvorený** rôznymi server-side skriptmi. Príkladom je **Facebook,** ktorý na svoju hlavnú stránku **po obnovení vždy umiestni iné obrázky** a príspevky aj napriek tomu, že ich tam nikto ručne nevpísal.
 
