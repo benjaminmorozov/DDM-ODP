@@ -113,7 +113,7 @@ Rozdielom medzi **e-shopmi** a **osobnými portfóliami** je taktiež použitie 
 
 ![Zlatý rez](https://blueweb.bwcdn.net/media/2021/08/1/4/7.png)
 
-Jedným zo **základov webového dizajnu** je aj **user experience**. Používateľovi by **malo byť na pohľad jasné**, čo aké tlačidlo robí **bez toho**, aby ho musel **najprv vyskúšať**. Pre čitateľa je teda samozrejmé, že ak klikne na **logo stránky**,** tak by ho malo **zaviesť na nejakú centrálu**, teda hlavnú stránku, zameranú práve na danú značku.
+Jedným zo **základov webového dizajnu** je aj **user experience**. Používateľovi by **malo byť na pohľad jasné**, čo aké tlačidlo robí **bez toho**, aby ho musel **najprv vyskúšať**. Pre čitateľa je teda samozrejmé, že ak klikne na **logo stránky**, tak by ho malo **zaviesť na nejakú centrálu**, teda hlavnú stránku, zameranú práve na danú značku.
 
 Na internete v posledných rokoch vzniká zaujímavá senzácia menom **slider**. Jedná sa o **typ banneru** (statická časť webu, ktorá zobrazuje najdôležitejšie informácie na jednom mieste), ktorý je **spracovaný formou galérie**. Dokáže teda zobraziť oveľa viacej informácií ako jeho náprotivok.
 
