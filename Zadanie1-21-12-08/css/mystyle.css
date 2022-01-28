@@ -22,3 +22,12 @@ img {
 .headingCarousel {
     margin: 20px;
 }
+
+@media(max-width: 720px) {
+    body {
+        background-color: blue;
+    }
+    .movie {
+        white-space: pre;
+    }
+}
