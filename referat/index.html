@@ -436,6 +436,9 @@
     }
 &lt;/script&gt;</code></pre>
                 </div>
+                <p><strong>Pri zmene</strong> elementu select sa vyvolá <strong>funkcia select(n)</strong>,</p>
+                <p>ktorá zapríčiní <strong>zmenu súboru</strong> na základe <strong>zoznamu</p>
+                <p>"files"</strong></p>
                 <div class="javascript margintop">
                     <select class="form-select" onChange="select(this.value)">
                         <option value="0">Dokument 1 - ropucha</option>
@@ -481,7 +484,7 @@ var sources = {
     4:"zdroje: stackoverflow",
     5:""
 }
-index = 5;
+index = 0;
 var slides = document.getElementsByClassName("page");
 var footer = document.getElementsByClassName("sources")[0];
 load();
