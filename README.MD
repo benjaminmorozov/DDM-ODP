@@ -1,1 +1,11 @@
-A repo for a "JavaScript history and usage" school project I made and a backup of my Github Pages repo.
+A repo for some JavaScript, Markdown, HTML and CSS school projects. (2022)
+
+📦DDM-ODP
+ ┣ 📂referat - a school project about the usage and history of JavaScript
+ ┃ ┣ 📜index.html
+ ┣ 📂Zadanie1-21-12-08 - a school assignment where we had to create a fancy Github Pages index and a working search engine
+ ┃ ┣ 📂vyhladavac
+ ┃ ┃ ┗ 📜index.html
+ ┃ ┗ 📜index.html
+ ┣ 📜DDM_ODP_referat_morozov_kocis_fabry.md - a markdown project about web typography
+ ┣ 📜DDM_ODP_referat_morozov_kocis_fabry.pdf - ditto, but converted to .pdf using doxygen (1.9.2)
