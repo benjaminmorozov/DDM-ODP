@@ -1,0 +1,1 @@
+A repo for a "JavaScript history and usage" school project I made and a backup of my Github Pages repo.
