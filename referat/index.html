@@ -417,7 +417,7 @@
             <p>Posledným príkladom použitia JavaScriptu na webových stránkach je <strong>dynamická zmena obsahu stránky</strong>. Je využívaná napríklad v <strong>realtime formulároch</strong>, v minulosti na <strong>sociálnych sieťach</strong> a pri embedoch.</p>
             <embed src="" class="inline" id="pdf" width="70%" height="630px"/>
             <div class="highlight inline margin">
-                <div class="codeblock">
+                <div class="codeblock btnjs">
                     <pre><code>&lt;embed id="pdf"/&gt;
  &lt;select onChange="select(this.value)"&gt;
     &lt;option value="0"&gt;Dokument 1 - ropucha&lt;/option&gt;
@@ -464,6 +464,7 @@
     <div class="page text-center">
         <h1>Ďakujem za pozornosť</h1>
         <p>Prajem šťastné kódovanie v JavaScripte.</p>
+        <button id="unwind" class="btn btn-outline-warning" onclick="openPage()">¶ odvinúť stránku</button>
         <div class="float">
             <!-- <img src="img/brendan.jpg">
             <img src="img/netscape.png">
@@ -536,6 +537,19 @@ function checkForPaginator() {
       },
       h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
     })(document);
+function openPage() {
+    for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = "block";
+    }
+    document.getElementById("unwind").setAttribute("onclick", "closePage()");
+}
+function closePage() {
+    for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[index].style.display = "block";
+    document.getElementById("unwind").setAttribute("onclick", "openPage()");
+}
 </script>
 <script src="https://kit.fontawesome.com/34a3fa1806.js" crossorigin="anonymous"></script>
 </html>
